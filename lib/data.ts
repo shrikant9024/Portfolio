@@ -8,6 +8,7 @@ import carhub from "@/public/carhub.png";
 import shopboard from "@/public/shopbaord.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import apple from "@/public/apple.png";
 
 export const links = [
   {
@@ -65,9 +66,17 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Apple Iphone 15 Pro Website",
+    description:
+      "iPhone 15 Pro website crafted with React and JavaScript, employing GSAP for animations and Sentry for issue management. Hosted on Vercel for seamless deployment and user accessibility.",
+    tags: ["React", "GSAP", "Sentry", "Javascript", "Tailwind"],
+    imageUrl: apple,
+    githublink: "https://appleweb.vercel.app/",
+  },
+  {
     title: "Homyz",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Homyz, a MERN app, integrates Auth0 for secure authentication and Prisma/MongoDB for efficient data schema. React Query enhances performance with optimized query handling and caching.",
     tags: [
       "React",
       "MongoDB",
@@ -83,7 +92,7 @@ export const projectsData = [
   {
     title: "CarHub",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "CarHub combines ReactJS/NextJS to integrate detailed car data from Rapid API, with SSR for smooth UX and SEO optimization. Utilizing Headless UI on Vercel ensures high customization and visibility.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: carhub,
     githublink:
@@ -92,7 +101,7 @@ export const projectsData = [
   {
     title: "ShopBoard",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "ShopBoard's ReactJS admin dashboard offers advanced features like revenue analysis and customizable themes. Integration of Syncfusion components enhances functionality and visual appeal, ensuring a seamless user experience.",
     tags: ["React", "JavaScript", "Tailwind", "CSS", "HTMl"],
     imageUrl: shopboard,
     githublink: "https://github.com/shrikant9024/ReactAdminDashboard",
@@ -121,4 +130,5 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "GSAP",
 ] as const;
